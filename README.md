@@ -20,7 +20,7 @@ Step 11: Perform speech recognition with exceptional handling:<Br>
 •	If successful, print the recognized text.<Br>
 •	Handle specific exceptions: If the recognition result is unknown or if there is an issue with the request to the Google Speech Recognition service, print corresponding error messages.<Br>
 •	A generic exception block captures any other unexpected errors.<Br>
-<H3>Program:</H3>
+### Program:
 ~~~
 import speech_recognition as sr
 def record_audio():
@@ -42,12 +42,9 @@ while True:
     print(text)
     if text=="stop" or text=="close" or text=="exit":
         exit(1)
- ~~~
+~~~
+### Output:
+![image](https://github.com/21005984/Ex-8--AAI/assets/94748389/d537ce83-0937-4d7b-8cca-df5460341bcc)
 
-<H3> Output:</H3>
-![image](https://github.com/user-attachments/assets/8f24622f-307c-4668-a00e-084b32ab2360)
-
-
-
-<H3> Result:</H3>
+### Result:
 Thus, The implementation of speech recognition is executed successfully.
